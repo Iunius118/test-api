@@ -42,4 +42,14 @@ public class APITestMod {
 }
 ```
 
+### mods.toml
+```toml
+[[dependencies.apitestmod]]
+    modId="testapimod"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+```
+
 See also https://github.com/Iunius118/APITestMod
