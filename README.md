@@ -5,7 +5,7 @@ A test api for Forge mod.
 ## Setup
 ### build.gradle
 #### Repositories
-```groovy
+```gradle
 repositories {
   maven {
     url 'https://iunius118.github.io/test-api/maven'
@@ -14,7 +14,7 @@ repositories {
 ```
 
 #### Dependencies
-```groovy
+```gradle
 dependencies {
   implementation fg.deobf("com.github.iunius118:test-api:${test_api_version}")
 }
