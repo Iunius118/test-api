@@ -24,6 +24,6 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           draft: true
-          files: build/libs/*[!ie].jar
+          files: build/libs/*.jar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
