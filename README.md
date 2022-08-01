@@ -31,7 +31,7 @@ test_api_version=1.0.0
 public class APITestMod {
     public APITestMod() {
         // Sample method called on PlayerLoggedInEvent
-        Consumer<PlayerEvent.PlayerLoggedInEvent> method = e -> {
+        Consumer<PlayerEvent.PlayerLoggedInEvent> method = event -> {
             Player player = event.getEntity();
             player.sendSystemMessage(Component.literal("Hi, ").append(player.getDisplayName()).append("!").withStyle(ChatFormatting.GOLD));
         };
