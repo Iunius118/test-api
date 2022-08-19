@@ -22,7 +22,7 @@ dependencies {
 
 ### gradle.properties
 ```properties
-test_api_version=1.0.0
+test_api_version=1.0.1
 ```
 
 ## Sample
