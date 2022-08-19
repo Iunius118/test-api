@@ -21,7 +21,10 @@ public class TestAPI {
      * @param method The method to register.
      */
     public static void registerMethod(@Nonnull Consumer<PlayerEvent.PlayerLoggedInEvent> method) {
-        methods.add(method);
+        synchronized (methods) {
+            methods.add(method);
+        }
+
         LOGGER.debug("Registered method: {}", method.getClass().toString());
     }
 }
