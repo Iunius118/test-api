@@ -47,7 +47,7 @@ public class APITestMod {
 [[dependencies.apitestmod]]
     modId="testapimod"
     mandatory=true
-    versionRange="[1.0.0,)"
+    versionRange="[1.0.1,)"
     ordering="AFTER"
     side="BOTH"
 ```
