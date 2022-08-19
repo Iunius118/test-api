@@ -8,7 +8,7 @@ A test api for Forge mod.
 ```gradle
 repositories {
   maven {
-    url 'https://iunius118.github.io/test-api/maven'
+    url 'https://iunius118.github.io/maven-repo'
   }
 }
 ```
